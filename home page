@@ -1,0 +1,21 @@
+const Navbar = () => {
+  return (
+    <div style={{ width: 1755.88, height: 250, background: 'black', display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}>
+      
+      {/* Logo Image */}
+      <img style={{ width: 109.24, height: 77 }} src="https://placehold.co/109x77" alt="Logo" />
+      
+      {/* Navigation Links */}
+      <div style={{ color: 'white', fontSize: 30, fontFamily: 'Dela Gothic One', fontWeight: '400' }}>HOME</div>
+      <div style={{ color: 'white', fontSize: 30, fontFamily: 'Dela Gothic One', fontWeight: '400' }}>SHOP</div>
+      
+      {/* Central Image */}
+      <img style={{ width: 307.48, height: 250 }} src="https://placehold.co/307x250" alt="Banner" />
+      
+      <div style={{ color: 'white', fontSize: 30, fontFamily: 'Dela Gothic One', fontWeight: '400' }}>SNKRS</div>
+      <div style={{ color: 'white', fontSize: 25, fontFamily: 'Dela Gothic One', fontWeight: '400' }}>JOIN / LOG IN</div>
+    </div>
+  );
+};
+
+export default Navbar;
